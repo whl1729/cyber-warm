@@ -1,5 +1,17 @@
 # Claude Code 提示词
 
+## 2026-04-06
+
+### 爬取 Anthropic Research 和 Engineering
+
+请帮忙增加爬取以下博客的功能：
+
+1. 请在 @news/crawler/ai 中增加对应的 crawler
+2. 请在 @news/reporter 中增加对应的 reporter
+
+- [Anthropic Engineering](https://www.anthropic.com/engineering)
+- [Anthropic Research](https://www.anthropic.com/research)
+
 ## 2026-04-04
 
 v1.1:

@@ -30,6 +30,16 @@ def report_daily_news() -> str:
     """报道每日新闻"""
     daily_reporters = [
         DailyNewsReporter(
+            "Anthropic Engineering Blog",
+            "anthropic_engineering_blog",
+            order_by="created_at",
+        ),
+        DailyNewsReporter(
+            "Anthropic Research Blog",
+            "anthropic_research_blog",
+            order_by="created_at",
+        ),
+        DailyNewsReporter(
             "Claude Code Blog", "claude_code_blog", order_by="created_at"
         ),
         DailyNewsReporter("OpenAI News", "openai_news", order_by="created_at"),

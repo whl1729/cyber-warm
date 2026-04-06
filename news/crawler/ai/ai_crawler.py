@@ -1,4 +1,6 @@
 from news.crawler.ai import addy_osmani_blog_crawler
+from news.crawler.ai import anthropic_engineering_blog_crawler
+from news.crawler.ai import anthropic_research_blog_crawler
 from news.crawler.ai import antirez_blog_crawler
 from news.crawler.ai import armin_ronacher_blog_crawler
 from news.crawler.ai import baoyu_blog_crawler
@@ -35,6 +37,8 @@ from news.util.logger import logger
 
 def crawl():
     crawlers = {
+        "anthropic_engineering_blog": anthropic_engineering_blog_crawler,
+        "anthropic_research_blog": anthropic_research_blog_crawler,
         "claude_code_blog": claude_code_blog_crawler,
         "openai_news": openai_news_crawler,
         "karpathy_blog": karpathy_blog_crawler,
