@@ -1,4 +1,4 @@
-# Cyber News
+# [Cyber News](https://news.whl1729.cn)
 
 This project collects news of interest to me from the internet daily, making it convenient for me to stay updated on what's happening in the world.
 
